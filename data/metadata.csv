@@ -1,5 +1,9 @@
-pid,label,autor,fecha
-AdriaenCollaert,America Tortuga,Adriaen Collaert,1586
-JohannSadeler,America Loro,Johann Sadeler,1581
-PhilipsGalle,America Composición,Philips Galle,1547
-PhilipsGalle2,America Cabeza,Philips Galle,1585
+pid,label,Creator,Page,Medium,Date,Genre,Source
+CR1,Neuromancer,Givens Long,12,Painted,1989-01-01,Cyberpunk,http://www.antonraubenweiss.com/gibson/gallery/neuromancer-graphicnovel-lost/index.html?fbclid=IwAR3b3SWy0_1yYAyQ-hPzlacdSVnE52l07lR_MPBvrYUa6UKokB-DXQY8Frg
+CR2,Neuromancer,Givens Long,13,Painted,1989-01-01,Cyberpunk,http://www.antonraubenweiss.com/gibson/gallery/neuromancer-graphicnovel-lost/index.html?fbclid=IwAR3b3SWy0_1yYAyQ-hPzlacdSVnE52l07lR_MPBvrYUa6UKokB-DXQY8Frg
+CR3,Eden: It's an endless world,Hiroki Endo,2,Inks,2005-11-02,Distópico,https://www.darkhorse.com/Books/10-924/Eden-Volume-1-Its-an-Endless-World-TPB#prettyPhoto[10-924]/2/
+CR4,Tokyo Ghost,Sean Gordon Murphy,7,Inks and digital colors,2015-09-01,Cyberpunk,https://imagecomics.com/features/sean-gordon-murphy-crafting-tokyo-ghost-interview
+CR5,Blame!,Tsutomu Nihei,26,Inks,1997-01-01,Science Fiction,https://www.amazon.com/-/es/Tsutomu-Nihei/dp/1942993773
+CR6,Metal Gear Solid: Sons of liberty,Ashley Wood,13,Inks and digital colors,2006-07-01,Acción,https://www.zipcomic.com/metal-gear-solid-sons-of-liberty-issue-7
+CR7,Astro Boy,Osamu Tezuka,16,Inks,1952-04-03,Acción,https://tezukaosamu.net/en/manga/291.html
+CR8,Transmetropolitan,Darrick Robertson,12,Inks and digital colors,1997-01-01,Cyberpunk,

@@ -17,9 +17,13 @@ Este es el protocolo que especifica la construcción de los datos de la colecci�
 
 | Dato   | Descripción                                                                     |  Tipo      |
 |---     |---                                                                              |---         |
-| pid    | Identificador único                                                             | categórico |
-| label  | Nombre de la obra. Iniciales con mayúsculas                                     | categórico |
-| autor  | Autor de la obra. Inciales con mayúsculas, incluir acentos                      | categórico |
-| fecha  | Año aproximado de producción de la obra. Escrito en número completo (p.ej 1589) | ordinal    |
+| pid    | Identificador único.                                                             | categórico |
+| label  | Nombre del cómic. Iniciales con mayúsculas                                     | categórico |
+| Creator  | Artista del cómic. Inciales con mayúsculas, incluir acentos                      | categórico |
+| Page  | Página del cómic. | numérico    |
+| Medium  | Técnica usada para la imagen. | categórico    |
+| Date  | Fecha de publicación (AAAA/MM/DD). | ordinal    |
+| Genre  | Género del cómic. | categórico    |
+| Source  | Fuente de la imagen. | texto plano    |
 
 <MetadataTable />

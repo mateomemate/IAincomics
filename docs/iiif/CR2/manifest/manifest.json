@@ -1,0 +1,42 @@
+{
+  "id": "https://mateomemate.github.io/IAincomics/iiif/CR2/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "Neuromancer"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mateomemate.github.io/IAincomics/iiif/CR2/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://mateomemate.github.io/IAincomics/iiif/CR2/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://mateomemate.github.io/IAincomics/iiif/CR2/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://mateomemate.github.io/IAincomics/iiif/CR2/manifest/canvas-0.json",
+              "body": {
+                "id": "https://mateomemate.github.io/IAincomics/iiif/CR2/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1760,
+                "width": 1112
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 1112,
+      "height": 1760,
+      "annotations": []
+    }
+  ]
+}

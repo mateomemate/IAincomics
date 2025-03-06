@@ -13,19 +13,7 @@ layout: page
 
 # Recorrido por la colección
 
-Esta colección de muestra recopila varias imágenes con representaciones alegóricas de América tomadas de [Rijksstudio](https://www.rijksmuseum.nl/en), la colección digital del Rijks Museum de Países Bajos. Todas las imágenes usadas están en el dominio público.
-
-Usa este archivo para incluir contenido que permita hacer un recorrido por la colección.
-
-Para poner una imagen correspondiente a un ítem de la colección en este recorrido, usa el componente ItemPreview: 
-
-`<ItemPreview pid="PID" title="TÍTULO" alt="TEXTO ALTERNATIVO" page="PÁGINA DEL ÍTEM (opcional)">`
-
-Así se mostrará una imagen que, si se cliquea, te llevará al elemento de la colección correspondiente.
-
-Así:
-
-<ItemPreview pid="AdriaenCollaert" title="Por Adriaen Collaert" />
+<ItemPreview pid="CR1" title="por Givens Long" />
 
 También puedes usar urls de imágenes externas con normalidad en el formato Markdown.
 
@@ -35,22 +23,20 @@ También puedes usar urls de imágenes externas con normalidad en el formato Mar
 
 `<VizBarChart key="columna con valor categórico" top="numero de barras con mayor conteo (opcional, por defecto 10)/>`
 
-<VizBarChart key="autor"/>
+<VizBarChart key="Genre"/>
 
 ## Histograma
 
 `<VizBarChart key="columna con valor numérico" />`
 
-<VizHistogram key="fecha"/>
+<VizHistogram key="Page"/>
 
 ## Árbol jerárquico
 
-`<VizTree key="Array con columnas con valores categóricos" metadata="metadatos prefiltrados (opcional)"/>`
-
-<VizTree keys={["autor", "label"]}/>
+<VizTree keys={["Genre", "label"]}/>
 
 ## Línea de tiempo
 
-`<VizTimeline dateKey="columna con fecha" metadata="metadatos prefiltrados (opcional)">`
+`<VizTimeline dateKey="Date" metadata="metadatos prefiltrados (opcional)">`
 
-<VizTimeline dateKey="fecha"/>
+<VizTimeline dateKey="Date"/>

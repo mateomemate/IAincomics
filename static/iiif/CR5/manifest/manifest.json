@@ -1,0 +1,42 @@
+{
+  "id": "https://mateomemate.github.io/IAincomics/iiif/CR5/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "Blame!"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mateomemate.github.io/IAincomics/iiif/CR5/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://mateomemate.github.io/IAincomics/iiif/CR5/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://mateomemate.github.io/IAincomics/iiif/CR5/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://mateomemate.github.io/IAincomics/iiif/CR5/manifest/canvas-0.json",
+              "body": {
+                "id": "https://mateomemate.github.io/IAincomics/iiif/CR5/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1336,
+                "width": 926
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 926,
+      "height": 1336,
+      "annotations": []
+    }
+  ]
+}

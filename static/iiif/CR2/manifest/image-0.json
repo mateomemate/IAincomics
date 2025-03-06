@@ -1,0 +1,15 @@
+{
+  "id": "https://mateomemate.github.io/IAincomics/iiif/CR2/manifest/image-0.json",
+  "items": [],
+  "type": "Annotation",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "motivation": "painting",
+  "target": "https://mateomemate.github.io/IAincomics/iiif/CR2/manifest/canvas-0.json",
+  "body": {
+    "id": "https://mateomemate.github.io/IAincomics/iiif/CR2/0/full/max/0/default.jpg",
+    "type": "Image",
+    "format": "image/jpeg",
+    "height": 1760,
+    "width": 1112
+  }
+}

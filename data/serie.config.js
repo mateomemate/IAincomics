@@ -1,38 +1,59 @@
 const config = {
   "lang": "es",
   "localPort": "5173",
-  "base": "https://srsergiorodriguez.github.io",
-  "baseurl": "/serie-mini",
-  "title": "Serie Mini",
-  "subtitle": "Un sistema para mini colecciones digitales",
-  "credits": "Por Sergio Rodríguez Gómez",
-  "copyright": "Todos los derechos reservados, 2024",
-  "logos": [
-    {img: "logos/logo.png", link: "https://github.com/srsergiorodriguez/serie-mini"}
-  ],
+  "base": "https://mateomemate.github.io",
+  "baseurl": "/IAincomics",
+  "title": "IA representada en los cómics",
+  "subtitle": "TBD",
+  "credits": "Mateo Rojas Borrero",
+  "copyright": "Todos los derechos reservados, 2025",
   "pages": {
     "iiifViewer": true,
     "metadataToShow": [
       {
         "key": "label",
-        "label": "Nombre",
+        "label": "Label",
         "type": "text"
       },
       {
-        "key": "autor",
-        "label": "Autor",
+        "key": "Creator",
+        "label": "Creator",
         "type": "text"
       },
       {
-        "key": "fecha",
-        "label": "Fecha",
+        "key": "Page",
+        "label": "Page",
+        "type": "text"
+      },
+      {
+        "key": "Medium",
+        "label": "Medium",
+        "type": "text"
+      },
+      {
+        "key": "Date",
+        "label": "Date",
+        "type": "text"
+      },
+      {
+        "key": "Genre",
+        "label": "Genre",
+        "type": "text"
+      },
+      {
+        "key": "Source",
+        "label": "Source",
         "type": "text"
       }
     ],
     "metadataToIndex": [
       "label",
-      "autor",
-      "fecha"
+      "Creator",
+      "Page",
+      "Medium",
+      "Date",
+      "Genre",
+      "Source"
     ]
   }
 };

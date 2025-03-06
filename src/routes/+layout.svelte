@@ -1,6 +1,6 @@
 <svelte:head>
   <style>
-      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Lacquer&display=swap');
   </style>
 </svelte:head>
 
@@ -10,10 +10,10 @@
   :global(:root){
     --stroke: black; /* Font color */
     --fill: #fdfcfa; /* Background color */
-    --accent1: #c9e2ef; /* Main color */
-    --accent2: #0b456c; /* Higlights color */
+    --accent1: #9C528B; /* Main color */
+    --accent2: #750067; /* Higlights color */
     --mainfont: "Lato", sans-serif;
-    --headerfont: "Lato", sans-serif;
+    --headerfont: "Barriecito", system-ui;
     font-family: var(--mainfont);
   }
 
