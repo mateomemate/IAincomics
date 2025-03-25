@@ -1,6 +1,6 @@
 <svelte:head>
   <style>
-      @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Lacquer&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
   </style>
 </svelte:head>
 
@@ -10,10 +10,10 @@
   :global(:root){
     --stroke: black; /* Font color */
     --fill: #fdfcfa; /* Background color */
-    --accent1: #9C528B; /* Main color */
+    --accent1: #38fa0d; /* Main color */
     --accent2: #750067; /* Higlights color */
-    --mainfont: "Lato", sans-serif;
-    --headerfont: "Barriecito", system-ui;
+    --mainfont: "Pixelify", sans-serif;
+    --headerfont: "Pixelify", system-ui;
     font-family: var(--mainfont);
   }
 
