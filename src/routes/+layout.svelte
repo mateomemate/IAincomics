@@ -1,19 +1,19 @@
 <svelte:head>
   <style>
-      @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-  </style>
+    @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+    </style>
 </svelte:head>
 
 <slot></slot>
 
 <style>
   :global(:root){
-    --stroke: black; /* Font color */
-    --fill: #fdfcfa; /* Background color */
-    --accent1: #38fa0d; /* Main color */
-    --accent2: #750067; /* Higlights color */
-    --mainfont: "Pixelify", sans-serif;
-    --headerfont: "Pixelify", system-ui;
+    --stroke: rgb(166, 93, 244); /* Font color */
+    --fill: #f0ecf9; /* Background color */
+    --accent1: #380855; /* Main color */
+    --accent2: #ed0968; /* Higlights color */
+    --mainfont: "Pixelify Sans", sans-serif;
+    --headerfont: "Pixelify Sans", system-ui;
     font-family: var(--mainfont);
   }
 
