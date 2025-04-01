@@ -3,7 +3,7 @@ const config = {
   "localPort": "5173",
   "base": "https://mateomemate.github.io",
   "baseurl": "/IAincomics",
-  "title": "IA representada en los cómics",
+  "title": "IAs en Comics",
   "subtitle": "TBD",
   "credits": "Mateo Rojas Borrero",
   "copyright": "Todos los derechos reservados, 2025",
