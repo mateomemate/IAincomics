@@ -12,48 +12,48 @@ const config = {
     "metadataToShow": [
       {
         "key": "label",
-        "label": "Label",
+        "label": "Comic",
         "type": "text"
       },
       {
-        "key": "Creator",
-        "label": "Creator",
+        "key": "Artista",
+        "label": "Artista",
         "type": "text"
       },
       {
-        "key": "Page",
-        "label": "Page",
+        "key": "Página",
+        "label": "Página",
         "type": "text"
       },
       {
-        "key": "Medium",
-        "label": "Medium",
+        "key": "Medio",
+        "label": "Medio",
         "type": "text"
       },
       {
-        "key": "Date",
-        "label": "Date",
+        "key": "Fecha",
+        "label": "Fecha",
+        "type": "Date"
+      },
+      {
+        "key": "Género",
+        "label": "Género",
         "type": "text"
       },
       {
-        "key": "Genre",
-        "label": "Genre",
-        "type": "text"
-      },
-      {
-        "key": "Source",
-        "label": "Source",
+        "key": "Fuente",
+        "label": "Fuente",
         "type": "text"
       }
     ],
     "metadataToIndex": [
       "label",
-      "Creator",
-      "Page",
-      "Medium",
-      "Date",
-      "Genre",
-      "Source"
+      "Artista",
+      "Página",
+      "Medio",
+      "Fecha",
+      "Género",
+      "Fuente"
     ]
   }
 };
