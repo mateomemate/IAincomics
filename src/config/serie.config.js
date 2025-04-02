@@ -4,7 +4,7 @@ const config = {
   "base": "https://mateomemate.github.io",
   "baseurl": "/IAincomics",
   "title": "IAs en Comics",
-  "subtitle": "TBD",
+  "subtitle": "Como imaginamos la Inteligencia Artificial en el arte secuencial",
   "credits": "Mateo Rojas Borrero",
   "copyright": "Todos los derechos reservados, 2025",
   "pages": {

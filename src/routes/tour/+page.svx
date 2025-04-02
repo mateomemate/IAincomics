@@ -13,30 +13,16 @@ layout: page
 
 # Recorrido por la colección
 
-<ItemPreview pid="CR1" title="por Givens Long" />
-
-También puedes usar urls de imágenes externas con normalidad en el formato Markdown.
-
 ## Elementos interactivos
 
-## Gráfico de barras
+## ¿De qué generos puedes encontrar representaciones de IAs en la colección?
 
-`<VizBarChart key="columna con valor categórico" top="numero de barras con mayor conteo (opcional, por defecto 10)/>`
+<VizBarChart key="Género"/>
 
-<VizBarChart key="Genre"/>
+Explora las imágenes desde los géneros de tu interés:
 
-## Histograma
+<VizTree keys={["Género", "label"]}/>
 
-`<VizBarChart key="columna con valor numérico" />`
+## ¿Desde cuándo estamops imaginando IAs? 
 
-<VizHistogram key="Page"/>
-
-## Árbol jerárquico
-
-<VizTree keys={["Genre", "label"]}/>
-
-## Línea de tiempo
-
-`<VizTimeline dateKey="Date" metadata="metadatos prefiltrados (opcional)">`
-
-<VizTimeline dateKey="Date"/>
+<VizTimeline dateKey="Fecha"/>

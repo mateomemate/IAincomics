@@ -9,21 +9,25 @@ layout: page
 
 # Metadatos
 
-En esta sección se encuentran los metadatos de la colección. Pueden descargarse y usarse libremente.
+En esta sección puedes encontrar los metadatos sobre las imágenes de representaciones incluídas en la colección. Éstos pueden descargarse y usarse libremente. 
 
 ## Protocolo
 
 Este es el protocolo que especifica la construcción de los datos de la colección:
 
-| Dato   | Descripción                                                                     |  Tipo      |
+| Dato   | Descripción  |  Tipo de dato     |
 |---     |---                                                                              |---         |
-| pid    | Identificador único.                                                             | categórico |
-| label  | Nombre del cómic. Iniciales con mayúsculas                                     | categórico |
-| Creator  | Artista del cómic. Inciales con mayúsculas, incluir acentos                      | categórico |
-| Page  | Página del cómic. | numérico    |
-| Medium  | Técnica usada para la imagen. | categórico    |
-| Date  | Fecha de publicación (AAAA/MM/DD). | ordinal    |
-| Genre  | Género del cómic. | categórico    |
-| Source  | Fuente de la imagen. | texto plano    |
+| pid    | Identificador único | categórico |
+| label  | Nombre del cómic. Iniciales con mayúsculas | categórico |
+| Artista  | Artista del cómic. Inciales con mayúsculas | categórico |
+| Página  | Página del cómic. | numérico |
+| Medio  | Técnica usada para la imagen | categórico    |
+| Fecha  | Fecha de publicación (AAAA/MM/DD) | ordinal    |
+| Género  | Género del cómic. | categórico    |
+| Fuente  | Fuente de la imagen | texto plano    |
+
+Como notarás, la mayor cantidad de metadatos en esta colección son categóricos, ya que mi interés era revisar las cualidades de cada una de las representaciones. Sin embargo, tengo un especial interés por las agrupaciones que se pueden formar en las representaciones por el género de la historia y por la fecha de publicación. en el género encontrarás géneros completos como la Ciencia Ficción, la Acción y el Terror, así como subgéneros tales como el Cyberpunk y el Thriller. En caso de agregar uno a futuro, sólo recomiendo nombrarlo en español o en inglés, e iniciar con mayúsucula. La fecha está registrada con el formato Año/mes/día.   
+
+¿LLegaste hasta aquí? Puedes descargar y utilizar la tabla de metadatos incluída a continuación:
 
 <MetadataTable />
